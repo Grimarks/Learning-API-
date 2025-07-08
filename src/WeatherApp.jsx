@@ -60,7 +60,7 @@ function WeatherApp() {
              hover:scale-101"
                 />
                 <button type="submit" className="p-3 bg-white rounded-lg hover:bg-gray-300 transition">
-                    <img src="./src/assets/cari.png" alt="Search" className="w-6 h-6" />
+                    <img src="assets/cari.png" alt="Search" className="w-6 h-6" />
                 </button>
             </form>
 
@@ -73,14 +73,14 @@ function WeatherApp() {
                     </div>
                     <div className="flex justify-between mt-6">
                         <div className="flex items-center space-x-2">
-                            <img src="./src/assets/humidity.png" alt="Humidity" className="w-8 h-8" />
+                            <img src="assets/humidity.png" alt="Humidity" className="w-8 h-8" />
                             <div>
                                 <p className="text-lg font-semibold">{weatherData.main.humidity}%</p>
                                 <p className="text-sm text-gray-200">Kelembapan</p>
                             </div>
                         </div>
                         <div className="flex items-center space-x-2">
-                            <img src="./src/assets/wind.png" alt="Wind" className="w-8 h-8" />
+                            <img src="assets/wind.png" alt="Wind" className="w-8 h-8" />
                             <div>
                                 <p className="text-lg font-semibold">{weatherData.wind.speed} Km/h</p>
                                 <p className="text-sm text-gray-200">Kecepatan Angin</p>
