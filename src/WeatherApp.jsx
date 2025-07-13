@@ -11,7 +11,7 @@ import windI     from "./assets/wind.png";
 function WeatherApp() {
     const [city, setCity] = useState("");
     const [weatherData, setWeatherData] = useState(null);
-    const apiKey = "07ceb21872ee0771ca76743b922f73de";
+    const apiKey = import.meta.env.VITE_API_KEY;
 
     useEffect(() => {
         if (!city) return;
